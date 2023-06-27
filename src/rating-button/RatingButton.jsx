@@ -3,6 +3,7 @@ import RoundButton from "../round-button/RoundButton";
 import "./RatingButton.css";
 
 const RatingButton = (props) => {
+
   const className =
     props.currentlyClicked === Number(props.children) ? "active" : "inactive";
 
