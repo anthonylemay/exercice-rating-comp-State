@@ -6,8 +6,8 @@ import Text from "./text/Text";
 import Title from "./title/Title";
 
 function App() {
-  const [currentlyClicked, setCurrentlyClicked] = useState(0);
 
+  const [currentlyClicked, setCurrentlyClicked] = useState(0);
   const onClick = (value) => {
     setCurrentlyClicked((previous) => {
       if (previous === value) return 0;

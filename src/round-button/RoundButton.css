@@ -6,7 +6,8 @@
   color: white;
   display: grid;
   place-items: center;
-  padding: 0;
+  padding: 0.25rem;
+
 }
 
 .button.round-button:hover {
